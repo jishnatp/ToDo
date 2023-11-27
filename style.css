@@ -1,0 +1,135 @@
+.main{
+  
+    width: 550px;
+   margin: auto;
+   background-color: rgb(252, 252, 252);
+   margin-top: 50px;
+   border-radius: 5%;  
+}
+.heading-one{
+text-align: center;
+color:white;
+margin-top: 50px;
+}
+.section-one{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 40px;
+    padding: 30px;
+    border-radius: 8px;
+   box-shadow: 3px 3px 8px grey;
+  
+}
+.title{
+    width: 250px;
+    height: 30px;
+   border: 1px solid rgb(5, 5, 65);
+  
+    width: 100%;
+    
+}
+.div-title{
+    color: black;
+   
+   
+    display: block;
+}
+.lab-title{
+   margin-bottom: 5px;
+    font-weight: bold;
+    display: block;
+}
+.div-desc{
+    color: black;
+   display: block;
+    margin-top: 20px;
+    
+}
+.desc{
+    width: 100%;
+}
+.add-btn{
+    width: 100px;
+    padding: 3%;
+    border-radius: 10px;
+    background-color: rgb(5, 5, 65);
+    color: white;
+    margin-top: 5px;
+    margin-left: 290px;
+    border: none;
+    outline: none;
+}
+.desc{
+    border: 1px solid rgb(5, 5, 65);
+}
+.list-items{
+    background-color:white ;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 40px;
+    
+   
+}
+.list-item{
+    color: black;
+    list-style-type: none;
+    padding-left: 10px;
+    font-weight: 800;
+}
+.list-item2{
+    color: black;
+    list-style-type: none;
+    padding-left: 10px;
+    width: fit-content;
+    text-align: left;
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+.list-item3{
+    color: white;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    margin-left: -40px;
+    padding-bottom: 20px;
+    box-shadow: 2px 2px 10px  rgba(0, 0, 0, 0.7);
+    margin-left: 0px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.avatar{
+    font-weight: bolder;
+    border: 2px solid white;
+   margin-left: 20px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: rgb(5, 5, 65);
+}
+.btn-delete{
+    margin-left: 240px;
+    background-color: rgb(5, 5, 65);
+    color: white;
+    height: 30px;
+    border-radius: 40px;
+    
+    border: none;
+}
+.btn-edit{
+    padding-left: 10px;
+    margin-left: 10px;
+    background-color: rgb(5, 5, 65);
+    color: white;
+    height: 30px;
+    border-radius: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+}
